@@ -1,0 +1,75 @@
+.myBackground {
+    background-image: url(a.jpg);
+}
+.rounded {
+    max-height: 400px;
+    display: inline-block;
+}
+.text-justify{
+    position: absolute;
+    color: whitesmoke;
+}
+ul{
+    display: inline-block;
+}
+h2 {
+    text-align: center ;
+}
+.rounded {
+    margin-left: 10rem !important;
+  }
+    
+  .card {
+    margin-left: 10rem !important;
+    display: inline-block;
+  }
+  #texto-principal{
+    margin-left: 10rem !important;
+    margin-top: 2rem !important;
+  }
+
+  body {
+    background-color: grey;
+  }
+
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: red;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+@media only screen and (min-width: 960px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover .dropdown-toggle::after {
+    border-bottom: 0.3em solid;
+    border-top: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .dropdown-toggle.show::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+}
