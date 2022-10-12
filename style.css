@@ -7,7 +7,6 @@
 }
 .text-justify{
     position: absolute;
-    color: whitesmoke;
 }
 ul{
     display: inline-block;
@@ -18,7 +17,14 @@ h2 {
 .rounded {
     margin-left: 10rem !important;
   }
-    
+.merginAEsquerda {
+  margin-left: 10rem !important;
+  margin-top: 5rem !important;
+}
+.mergin {
+  margin-left: 9rem !important;
+  margin-top: 1rem !important;
+}
   .card {
     margin-left: 10rem !important;
     display: inline-block;
